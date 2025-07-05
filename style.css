@@ -11,8 +11,8 @@ body {
 }
 
 .envelope {
-  width: 240px;              
-  height: 192px;             
+  width: 180px;              
+  height: 144px;             
   background-image: url("890.png");
   background-size: cover;
   background-position: center;
@@ -32,8 +32,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 260px;              
-  height: 198px;             
+  width: 200px;              
+  height: 152px;             
   transform: translate(-50%, -50%) scale(0);
   opacity: 0;
   transition: transform 0.6s ease, opacity 0.6s ease;
@@ -44,5 +44,5 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border-radius: 12px;
+  border-radius: 10px;
 }
